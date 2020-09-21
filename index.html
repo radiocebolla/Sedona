@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sedona</title>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <div class="header">
+                <ul class="nav">
+                    <li><a href="#">Информация</a></li>
+                    <li><a href="#">Фото и видео</a></li>
+                    <li class="logo"><a href="#"><img src="img/logo.svg" alt="лого"></a></li>
+                    <li><a href="#">Карта штата</a></li>
+                    <li><a href="#">Гостиницы</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="promo">
+            <div class="lettering">
+                <div class="welcome"><img src="img/welcome.svg" alt="промо-надпись"></div>
+                <div class="shape"><img src="img/shape.png" alt="декоративный элемент"></div>
+            </div>
+        </div>
+        <div class="promo_text">
+            <h2 class="info_promo">Седона — небольшой городок в Аризоне,<br>заслуживающий большего!</h2>
+            <p class="info_detail">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+        </div>
+        <div class="advert_town">
+            <div class="text_field">
+                <h2 class="info_nice">Настоящий городок</h2>
+                <p>— №1 —</p>
+                <p class="info_nice_detail">Седона - не аттракцион для туристов, там течёт своя жизнь</p>
+            </div>
+            <div><img src="img/image_house.png" alt="дом"></div>
+        </div>
+        <div class="features_items">
+            <div class="feature">
+                <div class="icon_items"><img src="img/icon_house.svg" alt="жилье"></div>
+                <div>
+                    <h2 class="info_first">Жильё</h2>
+                    <p class="detail">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="icon_items"><img src="img/icon_burger.svg" alt="еда"></div>
+                <div>
+                    <h2 class="info_first">Еда</h2>
+                    <p class="detail">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="icon_items"><img src="img/icon_present.svg" alt="сувениры"></div>
+                <div>
+                    <h2 class="info_first">Сувениры</h2>
+                    <p class="detail">Не только китайского, но и местного производства!</p>
+                </div>
+            </div>
+        </div>
+        <div class="advert_bridge">
+            <div><img src="img/image_canyon.png" alt="мост Дьявола"></div>
+            <div class="text_field">
+                <h2 class="info_devil">Там есть<br>Мост дьявола</h2>
+                <p>— №2 —</p>
+                <p class="info_nice_devil">Да, по нему можно пройти! Если конечно<br>вы осмелитесь</p>
+            </div>
+        </div>
+        <div class="features_places">
+            <div class="place">
+                <h2 class="info">небольшая площадь</h2>
+                <p>— №3 —</p>
+                <p class="info_place">все достопримечательности находятся очень близко</p>
+            </div>
+            <div class="place">
+                <h2 class="info">красивая дорога</h2>
+                <p>— №4 —</p>
+                <p class="info_place">ехать в седону из лас-вегаса совсем не скучно!</p>
+            </div>
+            <div class="place">
+                <h2 class="info">мало туристов</h2>
+                <p>— №5 —</p>
+                <p class="info_place">большинство едет в гранд каньон<br> и толпится там</p>
+            </div>
+        </div>
+        <div class="action">
+            <div class="act">
+                <h1>Заинтересовались?</h1>
+                <p>Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в седоне</p>
+            </div>
+        </div>
+        <div class="map_section">
+            <div class="map">
+                <div class="booking">
+                    <div class="search">
+                        <p>ПОИСК ГОСТИНИЦЫ В седоне</p>
+                    </div>
+                    <div class="booking_field">
+                        <form>
+                            <p class="date_in">
+                                <label for="check_in" class="check">Дата заезда:</label>
+                                <input type="text" id="check_in" name="check_in" placeholder="24 апреля 2017">
+                                <button type="button" class="book_icon"><img src="img/calendar.svg" alt="календарь"></button>
+                            </p>
+                            <p class="date_out">
+                                <label for="check_out" class="check">Дата выезда:</label>
+                                <input type="text" id="check_out" name="check_out" placeholder="4 июля 2017">
+                                <button type="button" class="book_icon"><img src="img/calendar.svg" alt="календарь"></button>
+                            </p>
+                            <div class="age">
+                            <p class="age_adult">
+                                <label for="adult" class="check_age">Взрослые:</label>
+                                <div class="count">
+                                    <button type="button" class="book_icon"><img src="img/rectangle.svg" alt="минус"></button>
+                                    <input class="number" type="text" id="adult" name="adult" placeholder="2">
+                                    <button type="button" class="book_icon"><img src="img/union.svg" alt="плюс"></button>
+                                </div>
+                            </p>
+                            <p class="age_child">
+                                <label for="child" class="check_age">Дети:</label>
+                                <div class="count">
+                                    <button type="button" class="book_icon"><img src="img/rectangle.svg" alt="минус"></button>
+                                    <input class="number" type="text" id="child" name="child" placeholder="0">
+                                    <button type="button" class="book_icon"><img src="img/union.svg" alt="плюс"></button>
+                                </div>
+                            </p>
+                            </div>
+                            <button class="search_button" type="submit"><p>найти</p></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer">
+                <div class="wrapper">
+                    <div class="contacts">
+                        <p>#visitSEDONA</p>
+                        <p>ТЕЛ: +7(495) 666-01-66</p>
+                    </div>
+                    <div class="social">
+                        <ul class="social_icons">
+                            <li><a href="#"><img src="img/twitter.svg" alt="twitter"></a></li>
+                            <li><a href="#"><img src="img/fb_icon.svg" alt="facebook"></a></li>
+                            <li><a href="#"><img src="img/youtube.svg" alt="youtube"></a></li>
+                        </ul>
+                    </div>
+                    <div class="copyright">
+                        <p>Website by</p>
+                        <a href="#"><img src="img/logo_htmlacademy.svg" alt="лого Академии"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
